@@ -1,4 +1,4 @@
-FROM uqlibrary/docker-nginx:latest
+FROM uqlibrary/docker-nginx-php5.6
 
 RUN \
  pear channel-discover pear.drush.org  && \
