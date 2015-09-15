@@ -4,4 +4,4 @@ RUN \
  pear channel-discover pear.drush.org  && \
  pear install drush/drush
 
-EXPOSE 80
+EXPOSE 9000
