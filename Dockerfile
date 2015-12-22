@@ -1,4 +1,4 @@
-FROM uqlibrary/docker-fpm56:1
+FROM uqlibrary/docker-fpm56:5
 
 RUN \
  pear channel-discover pear.drush.org  && \
